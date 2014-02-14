@@ -10,7 +10,6 @@ function envInit(context, name) {
   }
 
   function _exports(env, obj) {
-    console.log(process.env[_name], _name, arguments.length);
     if (arguments.length === 1) {
       _module.exports = env;
     }
