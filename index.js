@@ -10,14 +10,14 @@ function envInit(context, name) {
   }
 
   function _exports(env, obj) {
-    if (arguments.length === 1 && !process.env[_name]) {
-      _module.exports = env;
-    }
-    else if (process.env[_name] == env) {
-      _module.exports = obj;
-    }
-    else {
-      console.warn('no output in your env: ', env);
+    switch (arguments.length) {
+    case 1:
+      if (!process.env[_name]) _module.exports = env;
+      break;
+    default:
+      if (process.env[_name] == env) _module.exports = obj;
+      else console.warn('no output in your env: ', env);
+      break;
     }
   }
 }
