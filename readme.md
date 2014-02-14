@@ -1,5 +1,6 @@
 
-# node-env
+node-env [![Build Status](https://travis-ci.org/yorkie/node-envm.png)](https://travis-ci.org/yorkie/node-envm)
+============================================
 
 environment management for nodejs
 
@@ -12,7 +13,7 @@ $ npm install envm
 ### Usage
 
 ```js
-var env = require('env')(module);
+var env = require('envm')(module);
 env.exports('test', function() {
   console.log('under test');
 })
