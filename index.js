@@ -12,7 +12,7 @@ function envInit(context, name) {
   function _exports(env, obj) {
     switch (arguments.length) {
     case 1:
-      if (!process.env[_name]) _module.exports = env;
+      _module.exports = env;
       break;
     default:
       if (process.env[_name] == env) _module.exports = obj;
