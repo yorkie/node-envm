@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yorkie/node-env.git"
+    "url": "https://github.com/yorkie/node-envm.git"
   },
   "keywords": [
     "environment"
@@ -22,7 +22,7 @@
   "author": "Yorkie Neil <yorkiefixer@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yorkie/node-env/issues"
+    "url": "https://github.com/yorkie/node-envm/issues"
   },
-  "homepage": "https://github.com/yorkie/node-env"
+  "homepage": "https://github.com/yorkie/node-envm"
 }
