@@ -1,4 +1,4 @@
-node-env [![Build Status](https://travis-ci.org/yorkie/node-envm.png)](https://travis-ci.org/yorkie/node-envm)
+node-envm [![Build Status](https://travis-ci.org/yorkie/node-envm.png)](https://travis-ci.org/yorkie/node-envm)
 ============================================
 
 Environment management for nodejs
@@ -26,7 +26,9 @@ And then you should run your node process in this way:
 
 ```bash
 $ NODE_ENV=test node app
+> under test
 $ NODE_ENV=production node app
+> under production
 ```
 
 ### License

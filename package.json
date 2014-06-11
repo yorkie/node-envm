@@ -1,6 +1,6 @@
 {
   "name": "envm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "environment management for nodejs",
   "main": "index.js",
   "directories": {
